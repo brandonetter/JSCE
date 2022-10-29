@@ -20,13 +20,15 @@ someElement.style.color =  color.rgba // rgba(238,170,174,255)
 ## Manipulating a color
 ```
 // Generate 3 analogous colors by manipulating the Hue (.h) of any color
-const color = JSCE.createColor("#EAACD9");
+const color = JSCE.createColor("#AAAAEE");
 const color1 = color.hex;
 color.h +=15;
 const color2 = color.hex;
 color.h +=15;
 const color3 = color.hex;
 ```
+![image](https://user-images.githubusercontent.com/4108484/198845909-89583390-8506-4c12-b4fb-b4eae64ce0a2.png)
+
 ```
 //Generate monochromatic shades with ease (great for gradients and shadows)
 const color = JSCE.createColor("#7E7CAE");
