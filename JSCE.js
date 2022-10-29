@@ -39,7 +39,6 @@ class JSCE {
         let [r, g, b, _] = [...JSON.parse(colorData.colorDataRaw).rgba];
         let [h, s, l, a] = [...JSON.parse(colorData.colorDataRaw).hsla];
         let luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
-        console.log(luminance);
         luminance > 0.35 ? (l = 0) : (l = 100);
         s = 0;
         let hex = JSCE.hslToHex(h, s, l, a);
