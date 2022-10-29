@@ -29,11 +29,15 @@ const color3 = color.hex;
 ```
 //Generate monochromatic shades with ease (great for gradients and shadows)
 const color = JSCE.createColor("#7E7CAE");
-const colorShade1 = color.monochromatic; //18% darker than color if color's lightness as defined by HSLA is >50, otherwise 18% lighter
-const colorShade2 = color.monochromatic; //36% darker or lighter than color depending on the same criteria. color is not affected.
+const colorShade1 = color.monochromatic; 
+//18% darker than color if color's lightness as defined by HSLA is >50, otherwise 18% lighter
+const colorShade2 = color.monochromatic; 
+//36% darker or lighter than color depending on the same criteria. color is not affected.
 
-// .monochromatic will continue adding or subtracting lightness until you reach black or white. Changing any value of color
-// will reset this count back to the original 18%. This can be overwritten manually with color.monochromaticCounter = 1
+// .monochromatic will continue adding or subtracting lightness until you reach black or white.
+// Changing any value of color
+// will reset this count back to the original 18%. This can be overwritten manually
+// with color.monochromaticCounter = 1
 ```
 
 ```
