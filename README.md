@@ -47,8 +47,9 @@ const colorShade2 = color.monochromatic;
 
 ```
 // Generate the complementary color
-const compColor = color.complementary;
+const compColor = color.complement;
 ```
+![image](https://user-images.githubusercontent.com/4108484/198846018-67972a26-4b7f-4375-a271-329dd02f99cd.png)
 
 ```
 //Pick a white or black contrasting color for Text depending on the apparent brightness of this color.
