@@ -32,6 +32,7 @@ const color3 = color.hex;
 ```
 //Generate monochromatic shades with ease (great for gradients and shadows)
 const color = JSCE.createColor("#7E7CAE");
+const colorShade0 = color.hex;
 const colorShade1 = color.monochromatic; 
 //18% darker than color if color's lightness as defined by HSLA is >50, otherwise 18% lighter
 const colorShade2 = color.monochromatic; 
@@ -42,6 +43,7 @@ const colorShade2 = color.monochromatic;
 // will reset this count back to the original 18%. This can be overwritten manually
 // with color.monochromaticCounter = 1
 ```
+![image](https://user-images.githubusercontent.com/4108484/198845971-c2c40efa-31d8-4afb-9a01-599356b00557.png)
 
 ```
 // Generate the complementary color
