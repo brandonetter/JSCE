@@ -5,7 +5,8 @@ Generate and manipulate colors in Javascript with Objects!
 
 ## Making a color
 Instantiate a color with HEX or RGB
-```const color = JSCE.createColor("#EEAAAE");
+```
+const color = JSCE.createColor("#EEAAAE");
 const otherColor = JSCE.createColor(200,120,20,255);
 ```
 
