@@ -299,3 +299,4 @@ JSCE.Color = class Color {
     this.value = colorData;
   }
 };
+module.export = JSCE;

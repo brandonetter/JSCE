@@ -1,0 +1,24 @@
+{
+  "name": "jsce",
+  "version": "1.0.0",
+  "description": "Helper for Generating and Changing Colors in JS",
+  "main": "JSCE.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonetter/JSCE.git"
+  },
+  "keywords": [
+    "color",
+    "engine",
+    "colors"
+  ],
+  "author": "Brandon Etter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonetter/JSCE/issues"
+  },
+  "homepage": "https://github.com/brandonetter/JSCE#readme"
+}
