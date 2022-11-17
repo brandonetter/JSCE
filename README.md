@@ -3,11 +3,16 @@ Javascript Color Engine
 
 Generate and manipulate colors in Javascript with Objects!
 
+## Install
+```npm i jsce```
+
+```const { colorEngine } = require("jsce")```
+
 ## Making a color
 Instantiate a color with HEX or RGB
 ```
-const color = JSCE.createColor("#EEAAAE");
-const otherColor = JSCE.createColor(200,120,20,255);
+const color = colorEngine.createColor("#EEAAAE");
+const otherColor = colorEngine.createColor(200,120,20,255);
 ```
 
 ## Using a color
@@ -20,7 +25,7 @@ someElement.style.color =  color.rgba // rgba(238,170,174,255)
 ## Manipulating a color
 ```
 // Generate 3 analogous colors by manipulating the Hue (.h) of any color
-const color = JSCE.createColor("#AAAAEE");
+const color = colorEngine.createColor("#AAAAEE");
 const color1 = color.hex;
 color.h +=15;
 const color2 = color.hex;
@@ -31,7 +36,7 @@ const color3 = color.hex;
 
 ```
 //Generate monochromatic shades with ease (great for gradients and shadows)
-const color = JSCE.createColor("#7E7CAE");
+const color = colorEngine.createColor("#7E7CAE");
 const colorShade0 = color.hex;
 const colorShade1 = color.monochromatic; 
 //18% darker than color if color's lightness as defined by HSLA is >50, otherwise 18% lighter
