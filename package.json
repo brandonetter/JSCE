@@ -1,6 +1,6 @@
 {
   "name": "jsce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper for Generating and Changing Colors in JS",
   "main": "JSCE.js",
   "scripts": {
