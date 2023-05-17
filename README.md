@@ -1,5 +1,5 @@
 # JSCE
-Javascript Color Engine
+Javascript Color Engine 
 
 Generate and manipulate colors in Javascript with Objects!
 
